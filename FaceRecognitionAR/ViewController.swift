@@ -33,13 +33,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
     self.sentinel = Sentinel(scene: self.sceneView)
   }
   
-  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.sentinel?.touchActive = true
-  }
-  
-  override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-    self.sentinel?.touchActive = false
-  }
+
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
