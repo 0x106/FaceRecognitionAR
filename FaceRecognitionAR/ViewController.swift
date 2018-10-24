@@ -14,10 +14,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
   
   @IBOutlet var sceneView: ARSCNView!
   
-  var sentinel: Sentinel!
-  var frequency = 60
-  var frameCounter = 0
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     
