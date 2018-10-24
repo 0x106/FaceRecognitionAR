@@ -62,12 +62,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
     sceneView.session.pause()
   }
   
-  func session(_ session: ARSession, didUpdate frame: ARFrame) {
-    if frameCounter % frequency == 0 {
-      self.sentinel.run(frame)
-    }
-    frameCounter += 1
-  }
+  
 }
 
 

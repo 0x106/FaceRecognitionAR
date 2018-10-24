@@ -14,8 +14,6 @@
 		DA75294A217E90BF000E7FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA752948217E90BF000E7FA6 /* LaunchScreen.storyboard */; };
 		DA752955217E91A6000E7FA6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA752954217E91A6000E7FA6 /* Accelerate.framework */; };
 		DA752959217E9405000E7FA6 /* VirtualLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA752958217E9405000E7FA6 /* VirtualLabel.swift */; };
-		DA752965217EA70C000E7FA6 /* FRBackend.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA752964217EA70C000E7FA6 /* FRBackend.mm */; };
-		DA752968217EA8C4000E7FA6 /* Sentinel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA752967217EA8C4000E7FA6 /* Sentinel.swift */; };
 		DA75296B217EADBA000E7FA6 /* dlib_face_recognition_resnet_model_v1.dat in Resources */ = {isa = PBXBuildFile; fileRef = DA752969217EADB5000E7FA6 /* dlib_face_recognition_resnet_model_v1.dat */; };
 		DA75296C217EADBA000E7FA6 /* shape_predictor_68_face_landmarks.dat in Resources */ = {isa = PBXBuildFile; fileRef = DA75296A217EADBA000E7FA6 /* shape_predictor_68_face_landmarks.dat */; };
 		DA839A5621800DDF002A4037 /* libdlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA752956217E930B000E7FA6 /* libdlib.a */; };
@@ -34,9 +32,6 @@
 		DA752954217E91A6000E7FA6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		DA752956217E930B000E7FA6 /* libdlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdlib.a; sourceTree = "<group>"; };
 		DA752958217E9405000E7FA6 /* VirtualLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualLabel.swift; sourceTree = "<group>"; };
-		DA752964217EA70C000E7FA6 /* FRBackend.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FRBackend.mm; sourceTree = "<group>"; };
-		DA752966217EA71A000E7FA6 /* FRBackend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRBackend.h; sourceTree = "<group>"; };
-		DA752967217EA8C4000E7FA6 /* Sentinel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentinel.swift; sourceTree = "<group>"; };
 		DA752969217EADB5000E7FA6 /* dlib_face_recognition_resnet_model_v1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = dlib_face_recognition_resnet_model_v1.dat; sourceTree = "<group>"; };
 		DA75296A217EADBA000E7FA6 /* shape_predictor_68_face_landmarks.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = shape_predictor_68_face_landmarks.dat; sourceTree = "<group>"; };
 		DA839A5721800EA3002A4037 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
@@ -80,15 +75,12 @@
 				DA752956217E930B000E7FA6 /* libdlib.a */,
 				DA75293D217E90BE000E7FA6 /* AppDelegate.swift */,
 				DA752941217E90BE000E7FA6 /* ViewController.swift */,
-				DA752967217EA8C4000E7FA6 /* Sentinel.swift */,
 				DA839A5721800EA3002A4037 /* Util.swift */,
 				DA752958217E9405000E7FA6 /* VirtualLabel.swift */,
 				DA752943217E90BE000E7FA6 /* Main.storyboard */,
 				DA752946217E90BF000E7FA6 /* Assets.xcassets */,
 				DA752948217E90BF000E7FA6 /* LaunchScreen.storyboard */,
 				DA75294B217E90BF000E7FA6 /* Info.plist */,
-				DA752964217EA70C000E7FA6 /* FRBackend.mm */,
-				DA752966217EA71A000E7FA6 /* FRBackend.h */,
 			);
 			path = FaceRecognitionAR;
 			sourceTree = "<group>";
@@ -176,11 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA752968217EA8C4000E7FA6 /* Sentinel.swift in Sources */,
 				DA839A5821800EA3002A4037 /* Util.swift in Sources */,
 				DA752942217E90BE000E7FA6 /* ViewController.swift in Sources */,
 				DA752959217E9405000E7FA6 /* VirtualLabel.swift in Sources */,
-				DA752965217EA70C000E7FA6 /* FRBackend.mm in Sources */,
 				DA75293E217E90BE000E7FA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
